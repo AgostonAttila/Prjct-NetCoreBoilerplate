@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj": {}
+    "d:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj": {
+    "d:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj",
+        "projectPath": "d:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\obj\\",
+        "outputPath": "d:\\Programming\\Projects\\Prjct-NetCoreBoilerplate\\NetCoreBoilerplate\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
